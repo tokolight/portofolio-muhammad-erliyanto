@@ -6,12 +6,12 @@ export default {
       items: [
         {
           id: 1,
-          name: 'Personal Website',
-          imageUrl: 'portfolio_v2',
+          name: 'Scratch 1',
+          imageUrl: 'scratch.1',
           status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
           tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/Portofolio-v2',
-          demo: 'https://bagasrakha.netlify.app/'
+          github: 'null',
+          demo: 'https://scratch.mit.edu/projects/1062169432/'
         },
         {
           id: 2,
