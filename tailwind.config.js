@@ -7,11 +7,10 @@ module.exports = {
     accentColor: ({ theme }) => ({
       ...theme('colors'),
       auto: 'auto',
-    }),
     extend: {
       colors: {
-        '#00FFFF'
-      }
+        cyan: '#00FFFF', // Menambahkan nama warna
+      },
     },
     animation: {
       none: 'none',
