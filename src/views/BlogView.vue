@@ -64,7 +64,7 @@ export default {
   },
   methods: {
     async getArticles() {
-      axios.get('https://670fd6ada85f4164ef2c23b4.mockapi.io/api/blog/all/')
+      axios.get('https://670fd6ada85f4164ef2c23b4.mockapi.io/api/blog/All')
         .then(response => {
           this.articles = response.data;
         })
