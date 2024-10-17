@@ -9,45 +9,54 @@ export default {
           name: 'Scratch 1',
           imageUrl: 'scratch.1',
           status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
-          tech: 'VueJS 3, Tailwind',
+          tech: 'Scratch',
           github: 'null',
           demo: 'https://scratch.mit.edu/projects/1062169432/'
         },
         {
           id: 2,
           name: 'Sahabat Muslim',
-          imageUrl: 'sahabatmuslim',
+          imageUrl: 'scratch.2',
           status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/muslim-companion',
-          demo: 'https://sahabat-muslim.netlify.app/'
+          tech: 'Scratch',
+          github: 'null',
+          demo: 'https://scratch.mit.edu/projects/1063011261/'
         },
         {
           id: 3,
           name: 'SISTEKDES',
-          imageUrl: 'sistekdes',
+          imageUrl: 'scratch.3',
           status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
-          tech: 'Laravel 9, Bootstrap',
+          tech: 'Scratch',
           github: 'null',
-          demo: 'null'
+          demo: 'https://scratch.mit.edu/projects/1063495202/'
         },
         {
           id: 4,
           name: 'Bumdesma',
-          imageUrl: 'bumdesma',
+          imageUrl: 'scratch.4',
           status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
-          tech: 'Laravel 8, Bootstrap',
+          tech: 'Scratch',
           github: 'null',
-          demo: 'null'
+          demo: 'https://scratch.mit.edu/projects/1065531890/'
         },
         {
           id: 5,
           name: 'SP2SE',
-          imageUrl: 'sp2se',
+          imageUrl: 'scratch.5',
           status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Codeigniter 3, Bootstrap',
+          tech: 'Scratch',
           github: 'null',
-          demo: 'null'
+          demo: 'https://scratch.mit.edu/projects/1063580305/'
+        },
+        {
+          id: 6,
+          name: 'SP2SE',
+          imageUrl: 'scratch.6',
+          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
+          tech: 'Scratch',
+          github: 'null',
+          demo: 'https://scratch.mit.edu/projects/1066029646/'
         }
       ]
     };
@@ -121,7 +130,7 @@ export default {
   transform: translateY(-8px);
 }
 svg:hover{
-  stroke: #ffdb70;
+  stroke: #00FFFF;
 }
 @keyframes fadeZoomIn {
   0% {
