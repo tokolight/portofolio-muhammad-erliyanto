@@ -10,7 +10,7 @@ module.exports = {
     }),
     extend: {
       colors: {
-        'cyan': 'hsl(0, 100%, 100%)'
+        '#00FFFF'
       }
     },
     animation: {
