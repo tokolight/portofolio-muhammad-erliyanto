@@ -10,7 +10,7 @@ module.exports = {
     }),
     extend: {
       colors: {
-        'cyan': '#00FFFF'
+        'cyan': 'hsl(0%, 100%, 100%)'
       }
     },
     },
