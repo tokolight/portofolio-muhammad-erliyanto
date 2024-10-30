@@ -1,16 +1,19 @@
 <template>
-<div class="px-5 py-5 md:px-12 md:py-10 text-left text-blue-50 mx-3" style="color: #00ffff;">
-    <h4 class="title-text">School Assignments</h4>
-    <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-blue-300" style="color: #00ffff;">
-        Explore the projects I've worked on so far
-    </h4>
+  <div class="px-5 py-5 md:px-12 md:py-10 text-left text-cyan-50 mx-3">
+    <article data-page="about">
+      <header>
+        <div class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
+          <h4>School Assignments</h4>
+          <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-cyan-300">
+            Explore the projects I've worked on so far
+          </h4>
         </div>
       </header>
       <section>
         <div>
           <div class="grid grid-cols-1 gap-4 pb-32 md:grid-cols-3 md:gap-3 xl:grid-cols-3 xl:gap-3 2xl:gap-5 fade-zoom-in">
             <div v-for="item in items" :key="item.id">
-              <div class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-blue-50 md:gap-3 px-5 py-5 lg:px-5">
+              <div class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-cyan-50 md:gap-3 px-5 py-5 lg:px-5">
                 <div class="flex h-12 w-12 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
                   <img 
                     alt="Project Image" 
@@ -25,7 +28,7 @@
                   <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
                     {{ item.status }}
                   </div>
-                  <div class="w-full mt-4 text-normal text-sm text-left text-blue-200">
+                  <div class="w-full mt-4 text-normal text-sm text-left text-cyan-200">
                     {{ item.tech }}
                   </div>
                   <div class="w-full flex justify-end">
