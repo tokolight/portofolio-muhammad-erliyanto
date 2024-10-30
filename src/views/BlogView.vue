@@ -58,7 +58,7 @@ export default {
         {
           title: "Etiam nec odio ligula. Cras fringilla mattis risus, id sollicitudin.",
           desc: "Donec eu orci a magna blandit fermentum...",
-          slug: "nam-nam-consequuntur",
+          slug: "https://telegra.ph/Tugas-ASJ-Ujian-Akhir-Bab-1-09-30",
           image: "https://loremflickr.com/600/450/abstract",
           date: "Juni 25, 2023",
           content: "asdasda",
