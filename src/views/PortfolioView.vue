@@ -6,52 +6,52 @@ export default {
       items: [
         {
           id: 1,
-          name: 'Scratch 1',
+          name: 'Ball Game',
           imageUrl: 'scratch.1',
-          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
+          status: 'My first game! Challenge your reflexes by catching falling balls. The more balls you pick up, the higher your score! Ready to have fun and test your speed?',
           tech: 'Scratch',
           github: 'null',
           demo: 'https://scratch.mit.edu/projects/1062169432/'
         },
         {
           id: 2,
-          name: 'Sahabat Muslim',
+          name: 'Fruit Catching Game',
           imageUrl: 'scratch.2',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
+          status: 'My second game! Test your dexterity by catching falling fruit. Every fruit you pick up adds to your score, but watch out for the obstacles! Ready for a fresh and exciting challenge?',
           tech: 'Scratch',
           github: 'null',
           demo: 'https://scratch.mit.edu/projects/1063011261/'
         },
         {
           id: 3,
-          name: 'SISTEKDES',
+          name: 'Shooting Game',
           imageUrl: 'scratch.3',
-          status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
+          status: 'My third game! Get ready for exciting action as you shoot targets and test your accuracy. Improve your shooting skills through various challenging levels. Ready to become a shooting expert?',
           tech: 'Scratch',
           github: 'null',
           demo: 'https://scratch.mit.edu/projects/1063495202/'
         },
         {
           id: 4,
-          name: 'Bumdesma',
+          name: 'Convention',
           imageUrl: 'scratch.4',
-          status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
+          status: 'My fourth game! Test your knowledge of unit conversions by answering various questions. From length to weight, challenge yourself and improve your conversion skills in a fun way!',
           tech: 'Scratch',
           github: 'null',
           demo: 'https://scratch.mit.edu/projects/1065531890/'
         },
         {
           id: 5,
-          name: 'SP2SE',
+          name: 'Racing Game',
           imageUrl: 'scratch.5',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
+          status: 'My fifth game! Challenge your friends in exciting 2 player races! Choose your favorite car, enjoy challenging tracks, and see who is the fastest. Ready for a thrilling speed race?',
           tech: 'Scratch',
           github: 'null',
           demo: 'https://scratch.mit.edu/projects/1063580305/'
         },
         {
           id: 6,
-          name: 'SP2SE',
+          name: 'PPT Presentation',
           imageUrl: 'scratch.6',
           status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
           tech: 'Scratch',
