@@ -77,7 +77,7 @@ export default {
         },
         {
           id: 2,
-          name: 'MRTG: Sang Penjaga Jaringan di Balik Layar',
+          name: 'MRTG',
           imageUrl: 'https://example.com/images/scratch2.png',
           status: '18 September 2024',
           tech: 'Adm. Sistem Jaringan',
