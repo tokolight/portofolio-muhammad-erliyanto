@@ -4,7 +4,7 @@
       <div class="w-full md:w-2/3">
         <div class="flex flex-col gap-4 md:px-20 fade-zoom-up">
           <article v-for="article in articles" :key="article.id">
-            <router-link :to="`/read/${article.slug}/${article.id}`" class="flex w-full bg-[#1e1e1f] border-[#383838] rounded-xl text-left text-white p-5 md:py-7 md:px-8 cursor-pointer hover:bg-[#282828] items-center">
+            <router-link :to="`/soal/${article.slug}/${article.id}`" class="flex w-full bg-[#1e1e1f] border-[#383838] rounded-xl text-left text-white p-5 md:py-7 md:px-8 cursor-pointer hover:bg-[#282828] items-center">
               <div class="w-full pr-4">
                 <div class="text-xs mb-1 text-slate-400 flex items-center italic">
                   <div class="h-[1px] w-20 bg-amber-200 md:w-5 aos-init aos-animate mr-2"></div> {{ article.date }}
@@ -31,48 +31,102 @@
           <div class="hidden md:block">
             <div class="text-white text-md font-semibold">Topics</div>
             <div class="mt-3 flex flex-wrap gap-1">
-              <span
-                class="py-2 px-3 rounded-2xl bg-[#1e1e1f] hover:bg-white/20 text-white text-xs cursor-pointer">NodeJS</span>
-              <span
-                class="py-2 px-3 rounded-2xl bg-[#1e1e1f] hover:bg-white/20 text-white text-xs cursor-pointer">Technology</span>
+              <span class="py-2 px-3 rounded-2xl bg-[#1e1e1f] hover:bg-white/20 text-white text-xs cursor-pointer">NodeJS</span>
+              <span class="py-2 px-3 rounded-2xl bg-[#1e1e1f] hover:bg-white/20 text-white text-xs cursor-pointer">Technology</span>
             </div>
-            <!-- <div class="h-[1px] mt-7 mb-7 w-20 bg-amber-200 aos-init aos-animate mr-2"></div>
-            <div class="text-white text-md font-semibold">Popular Articles</div> -->
-
           </div>
         </div>
       </div>
     </div>
   </div>
-  <ArticleList />
 </template>
-  
+
 <script>
-import ArticleList from '@/components/ArticleList.vue';
-import axios from "axios";
 export default {
   data() {
     return {
-      articles: []
+      articles: [
+        {
+          title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus.",
+          desc: "Vestibulum auctor ullamcorper enim ut vestibulum...",
+          slug: "excepturi-architecto-quos",
+          image: "https://picsum.photos/600/450",
+          date: "Mei 12, 2023",
+          content: "Content 1",
+          id: "1"
+        },
+        {
+          title: "Etiam nec odio ligula. Cras fringilla mattis risus, id sollicitudin.",
+          desc: "Donec eu orci a magna blandit fermentum...",
+          slug: "nam-nam-consequuntur",
+          image: "https://loremflickr.com/600/450/abstract",
+          date: "Juni 25, 2023",
+          content: "asdasda",
+          id: "2"
+        },
+        {
+          title: "Iusto pariatur aspernatur ducimus dolores voluptatum quibusdam similique.",
+          desc: "Mollitia amet fuga repellat...",
+          slug: "aspernatur-eos-perspiciatis",
+          image: "https://loremflickr.com/640/480/abstract",
+          date: "Thursday",
+          content: "content 3",
+          id: "3"
+        },
+        {
+          title: "Qui molestiae consectetur sed.",
+          desc: "Pariatur harum mollitia veritatis...",
+          slug: "neque-dicta-eaque",
+          image: "https://loremflickr.com/640/480/abstract",
+          date: "Thursday",
+          content: "content 4",
+          id: "4"
+        },
+        {
+          title: "Nihil alias laudantium facere itaque quasi veniam iste.",
+          desc: "Voluptatibus eligendi sapiente molestias...",
+          slug: "cumque-error-sapiente",
+          image: "https://loremflickr.com/640/480/abstract",
+          date: "Friday",
+          content: "content 5",
+          id: "5"
+        },
+        {
+          title: "Minus iure molestiae libero reiciendis.",
+          desc: "Sed omnis accusantium occaecati ratione...",
+          slug: "ut-ad-consequuntur",
+          image: "https://loremflickr.com/640/480/abstract",
+          date: "Sunday",
+          content: "content 6",
+          id: "6"
+        },
+        {
+          title: "Possimus fugiat optio.",
+          desc: "Dicta consequatur blanditiis delectus nobis...",
+          slug: "incidunt-hic-architecto",
+          image: "https://loremflickr.com/640/480/abstract",
+          date: "Tuesday",
+          content: "content 7",
+          id: "7"
+        }
+      ],
+      blogview: []
     }
   },
-  components: {
-    ArticleList
-  },
   mounted() {
-    this.getArticles();
+    this.populateBlogView();
   },
   methods: {
-    async getArticles() {
-      axios.get('https://670fd6ada85f4164ef2c23b4.mockapi.io/api/blog/All')
-        .then(response => {
-          this.articles = response.data;
-        })
-    },
-
+    populateBlogView() {
+      this.blogview = this.articles.map(article => ({
+        id: article.id,
+        title: article.title,
+        slug: article.slug,
+        date: article.date
+      }));
+    }
   }
 }
-
 </script>
 
 <style scoped>
@@ -99,6 +153,5 @@ export default {
 }
 .fade-zoom-up {
   animation: fadeZoomUp 1s ease-in-out;
-  /* animation-delay: 1000ms; */
 }
 </style>
