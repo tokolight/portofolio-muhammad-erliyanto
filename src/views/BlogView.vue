@@ -31,29 +31,30 @@
           <div class="hidden md:block">
             <div class="text-white text-md font-semibold">Topics</div>
             <div class="mt-3 flex flex-wrap gap-1">
-              <span
-                class="py-2 px-3 rounded-2xl bg-[#1e1e1f] hover:bg-white/20 text-white text-xs cursor-pointer">NodeJS</span>
-              <span
-                class="py-2 px-3 rounded-2xl bg-[#1e1e1f] hover:bg-white/20 text-white text-xs cursor-pointer">Technology</span>
+              <span class="py-2 px-3 rounded-2xl bg-[#1e1e1f] hover:bg-white/20 text-white text-xs cursor-pointer">NodeJS</span>
+              <span class="py-2 px-3 rounded-2xl bg-[#1e1e1f] hover:bg-white/20 text-white text-xs cursor-pointer">Technology</span>
             </div>
-            <!-- <div class="h-[1px] mt-7 mb-7 w-20 bg-amber-200 aos-init aos-animate mr-2"></div>
-            <div class="text-white text-md font-semibold">Popular Articles</div> -->
-
           </div>
         </div>
       </div>
     </div>
   </div>
-  <ArticleList />
 </template>
-  
+
 <script>
 import ArticleList from '@/components/ArticleList.vue';
 import axios from "axios";
+
 export default {
   data() {
     return {
-      articles: []
+      articles: [],
+      urls: [
+        'https://64a38c9cc3b509573b564183.mockapi.io/api/blog/1',
+        'https://telegra.ph/Tugas-ASJ-Ujian-Akhir-Bab-3-09-30',
+        'https://telegra.ph/Tugas-ASJ-Ujian-Akhir-Bab-4-09-30',
+        'https://telegra.ph/Tugas-ASJ-Ujian-Akhir-Bab-5-09-30'
+      ]
     }
   },
   components: {
@@ -64,15 +65,32 @@ export default {
   },
   methods: {
     async getArticles() {
-      axios.get('https://670fd6ada85f4164ef2c23b4.mockapi.io/api/blog/All')
-        .then(response => {
-          this.articles = response.data;
-        })
-    },
-
+      try {
+        const requests = this.urls.map(url => axios.get(url));
+        const responses = await Promise.all(requests);
+        
+        this.articles = responses.map(response => {
+          if (response.config.url.includes('telegra.ph')) {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(response.data, 'text/html');
+            return {
+              id: response.config.url, // Menggunakan URL sebagai ID sementara
+              slug: '', // Ganti jika ada slug
+              title: doc.querySelector('h1').innerText || 'No Title',
+              date: new Date().toLocaleDateString(),
+              desc: doc.querySelector('.tg') ? doc.querySelector('.tg').innerHTML : 'No Content',
+              image: '' // Ganti jika ada gambar
+            };
+          } else {
+            return response.data; // Mengambil data langsung dari API
+          }
+        });
+      } catch (error) {
+        console.error('Error fetching articles:', error);
+      }
+    }
   }
 }
-
 </script>
 
 <style scoped>
@@ -99,6 +117,5 @@ export default {
 }
 .fade-zoom-up {
   animation: fadeZoomUp 1s ease-in-out;
-  /* animation-delay: 1000ms; */
 }
 </style>
