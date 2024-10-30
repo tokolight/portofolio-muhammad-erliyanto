@@ -25,7 +25,7 @@ export default {
             articles: [],
             urls: [
                 'https://telegra.ph/Tugas-ASJ-Ujian-Akhir-Bab-1-09-30',
-                'https://670fd6ada85f4164ef2c23b4.mockapi.io/api/blog/2',
+                'https://670fd6ada85f4164ef2c23b4.mockapi.io/api/blog/All',
                 'https://670fd6ada85f4164ef2c23b4.mockapi.io/api/blog/3',
                 'https://670fd6ada85f4164ef2c23b4.mockapi.io/api/blog/4',
                 'https://670fd6ada85f4164ef2c23b4.mockapi.io/api/blog/5'
