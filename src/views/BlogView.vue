@@ -24,15 +24,15 @@
                     :src="item.imageUrl">
                 </div>
                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
-                  <div class="title-text font-medium text-aqua">{{ item.name }}</div>
+                  <div class="title-text font-medium text-[#00ffff]">{{ item.name }}</div>
                   <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
                     {{ item.status }}
                   </div>
-                  <div class="w-full mt-4 text-normal text-sm text-left text-aqua">
+                  <div class="w-full mt-4 text-normal text-sm text-left text-[#00ffff]">
                     {{ item.tech }}
                   </div>
                   <div class="w-full flex justify-end">
-                    <div class="flex cursor-pointer items-end gap-2 text-aqua">
+                    <div class="flex cursor-pointer items-end gap-2 text-[#00ffff]">
                       <a v-if="item.github !== 'null'" 
                          :href="item.github" target="_blank" rel="noreferrer" 
                          title="View GitHub repository" class="transition-all hover:text-accent">
@@ -148,9 +148,9 @@ svg:hover {
   animation: fadeZoomIn 1s ease-in-out;
 }
 .text-primary {
-  color: aqua; /* Mengubah warna teks primary menjadi aqua */
+  color: #00ffff; /* Mengubah warna teks primary menjadi aqua */
 }
 .text-cyan-200 {
-  color: aqua; /* Mengubah warna cyan-200 menjadi aqua */
+  color: #00ffff; /* Mengubah warna cyan-200 menjadi aqua */
 }
 </style>
