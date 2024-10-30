@@ -1,3 +1,19 @@
+<script>
+export default {
+  data() {
+    return {
+      activeTab: 1,
+      tech: [
+        // ... data tech yang sama
+      ],
+      tools: [
+        // ... data tools yang sama
+      ]
+    };
+  }
+}
+</script>
+
 <template>
   <div
     class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-[#00ffff] mx-3 mb-5">
@@ -30,7 +46,6 @@
             market changes, ensuring that my approach remains user-friendly yet impactful.
           </p>
         </div>
-
       </section>
 
     </article>
