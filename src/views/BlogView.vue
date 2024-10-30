@@ -68,30 +68,30 @@ export default {
       items: [
         {
           id: 1,
-          name: 'Scratch 1',
+          name: 'Adm. Sistem Jaringan',
           imageUrl: 'https://example.com/images/scratch1.png',
-          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
-          tech: 'Scratch',
+          status: '30 October 2024',
+          tech: 'Adm. Sistem Jaringan',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1062169432/'
+          demo: 'https://telegra.ph/Adm-Sistem-Jaringan-10-30'
         },
         {
           id: 2,
-          name: 'Sahabat Muslim',
+          name: 'MRTG: Sang Penjaga Jaringan di Balik Layar',
           imageUrl: 'https://example.com/images/scratch2.png',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
-          tech: 'Scratch',
+          status: '18 September 2024',
+          tech: 'Adm. Sistem Jaringan',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1063011261/'
+          demo: 'https://telegra.ph/MRTG-Sang-Penjaga-Jaringan-di-Balik-Layar-09-18'
         },
         {
           id: 3,
-          name: 'SISTEKDES',
+          name: 'Tugas ASJ Ujian Akhir Bab 1',
           imageUrl: 'https://example.com/images/scratch3.png',
-          status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
-          tech: 'Scratch',
+          status: '30 September 2024',
+          tech: 'Adm. Sistem Jaringan',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1063495202/'
+          demo: 'https://telegra.ph/Tugas-ASJ-Ujian-Akhir-Bab-1-09-30'
         },
         {
           id: 4,
