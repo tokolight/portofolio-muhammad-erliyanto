@@ -2,10 +2,10 @@
   <div class="px-5 py-5 md:px-12 md:py-10 text-left text-cyan-50 mx-3">
     <article data-page="about">
       <header>
-        <div class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
-          <h4>School Assignments</h4>
+        <div class="text-2xl font-bold mb-10 fadein-bot title-section flex items-center justify-center flex-col">
+          <h4 style="color: #00ffff;">School Assignments</h4>
           <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-cyan-300">
-            Explore the projects I've worked on so far
+            <span style="color: #00ffff;">Explore the projects I've worked on so far</span>
           </h4>
         </div>
       </header>
@@ -24,11 +24,11 @@
                     :src="item.imageUrl">
                 </div>
                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
-                  <div class="title-text font-medium text-secondary">{{ item.name }}</div>
+                  <div class="title-text font-medium" style="color: #00ffff;">{{ item.name }}</div>
                   <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
                     {{ item.status }}
                   </div>
-                  <div class="w-full mt-4 text-normal text-sm text-left text-cyan-200">
+                  <div class="w-full mt-4 text-normal text-sm text-left" style="color: #00ffff;">
                     {{ item.tech }}
                   </div>
                   <div class="w-full flex justify-end">
