@@ -24,7 +24,7 @@
                     :src="item.imageUrl">
                 </div>
                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
-                  <div class="title-text font-medium text-secondary">{{ item.name }}</div>
+                  <div class="title-text font-medium text-aqua">{{ item.name }}</div>
                   <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
                     {{ item.status }}
                   </div>
@@ -32,7 +32,7 @@
                     {{ item.tech }}
                   </div>
                   <div class="w-full flex justify-end">
-                    <div class="flex cursor-pointer items-end gap-2 text-primary">
+                    <div class="flex cursor-pointer items-end gap-2 text-aqua">
                       <a v-if="item.github !== 'null'" 
                          :href="item.github" target="_blank" rel="noreferrer" 
                          title="View GitHub repository" class="transition-all hover:text-accent">
