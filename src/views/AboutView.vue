@@ -4,16 +4,109 @@ export default {
     return {
       activeTab: 1,
       tech: [
-        // ... data tech yang sama
+        {
+          id: 1,
+          name: 'HTML',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
+          status: 'Advanced'
+        },
+        {
+          id: 2,
+          name: 'CSS',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+          status: 'Advanced'
+        },
+        {
+          id: 3,
+          name: 'PHP',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
+          status: 'Advanced'
+        },
+        {
+          id: 4,
+          name: 'Javascript',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
+          status: 'Advance'
+        },
+        {
+          id: 5,
+          name: 'Laravel',
+          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
+          status: 'Advance'
+        },
+        {
+          id: 6,
+          name: 'Codeigniter',
+          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
+          status: 'Intermediate'
+        },
+        {
+          id: 7,
+          name: 'VueJS',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
+          status: 'Intermediate'
+        },
+        {
+          id: 8,
+          name: 'AlpineJS',
+          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
+          status: 'Beginner'
+        },
+        {
+          id: 9,
+          name: 'NodeJS',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
+          status: 'Beginner'
+        },
+        {
+          id: 10,
+          name: 'Tailwind',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
+          status: 'Advance'
+        },
+        {
+          id: 11,
+          name: 'Bootstrap',
+          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
+          status: 'Intermediate'
+        },
+        {
+          id: 12,
+          name: 'ReactJS',
+          imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
+          status: 'Beginner'
+        }
       ],
       tools: [
-        // ... data tools yang sama
+        {
+          id: 1,
+          name: 'Git',
+          imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
+          status: 'Version Control'
+        },
+        {
+          id: 2,
+          name: 'GitHub',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
+          status: 'Git Hosting'
+        },
+        {
+          id: 3,
+          name: 'NPM',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
+          status: 'Package Manager'
+        },
+        {
+          id: 4,
+          name: 'MySQL',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
+          status: 'Database'
+        },
       ]
     };
   }
 }
 </script>
-
 <template>
   <div
     class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-[#00ffff] mx-3 mb-5">
@@ -36,16 +129,17 @@ export default {
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
             &nbsp; &nbsp; &nbsp; My name is Muhammad ErlIyanto, a 12th-grade student in the Computer and Network Engineering
-            program (TKJ). From the beginning, I have been deeply interested in technology, especially
-            in understanding how hardware and software work together. I enjoy learning about computer
-            networks, programming, and everything related to the digital world.
+program (TKJ). From the beginning, I have been deeply interested in technology, especially
+in understanding how hardware and software work together. I enjoy learning about computer
+networks, programming, and everything related to the digital world.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
             &nbsp; &nbsp; &nbsp; My role as a trader is to analyze market trends and execute trades that maximize returns
-            while managing risks. I focus on creating a strategy that is both effective and adaptable to
-            market changes, ensuring that my approach remains user-friendly yet impactful.
+while managing risks. I focus on creating a strategy that is both effective and adaptable to
+market changes, ensuring that my approach remains user-friendly yet impactful.
           </p>
         </div>
+
       </section>
 
     </article>
