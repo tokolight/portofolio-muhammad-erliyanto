@@ -28,7 +28,7 @@
                   <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
                     {{ item.status }}
                   </div>
-                  <div class="w-full mt-4 text-normal text-sm text-left text-cyan-200">
+                  <div class="w-full mt-4 text-normal text-sm text-left text-aqua">
                     {{ item.tech }}
                   </div>
                   <div class="w-full flex justify-end">
@@ -146,5 +146,11 @@ svg:hover {
 }
 .fade-zoom-in {
   animation: fadeZoomIn 1s ease-in-out;
+}
+.text-primary {
+  color: aqua; /* Mengubah warna teks primary menjadi aqua */
+}
+.text-cyan-200 {
+  color: aqua; /* Mengubah warna cyan-200 menjadi aqua */
 }
 </style>
