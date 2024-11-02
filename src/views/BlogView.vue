@@ -69,7 +69,6 @@ export default {
         {
           id: 1,
           name: 'Adm. Sistem Jaringan',
-          imageUrl: 'https://example.com/images/scratch1.png',
           status: '30 October 2024',
           tech: 'Adm. Sistem Jaringan',
           github: 'null',
