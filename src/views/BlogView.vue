@@ -1,7 +1,8 @@
 <template>
-  <div class="px-5 py-5 md:px-12 md:py-10 text-left text-cyan-50 mx-3">
+  <div class="px-5 py-5 md:px-12 md:py-10 text-left text-[#00ffff] mx-3">
     <article data-page="about">
       <header>
+        <div
         class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
           <!-- <div class="h-[1px] w-10 bg-[#00ffff] md:w-20 aos-init aos-animate"></div> -->
           <h4>School Assignments</h4>
