@@ -78,7 +78,6 @@ export default {
         {
           id: 3,
           name: 'Tugas ASJ Ujian Akhir Bab 1',
-          imageUrl: 'https://example.com/images/scratch3.png',
           status: '30 September 2024',
           tech: 'Adm. Sistem Jaringan',
           github: 'null',
@@ -87,7 +86,6 @@ export default {
         {
           id: 4,
           name: 'TLJ Ulangan Akhir Bab 1',
-          imageUrl: 'https://example.com/images/scratch4.png',
           status: '2 November 2024',
           tech: 'Teknologi Layanan Jaringan',
           github: 'null',
@@ -96,7 +94,6 @@ export default {
         {
           id: 5,
           name: 'TLJ Ulangan Akhir Bab 2',
-          imageUrl: 'https://example.com/images/scratch5.png',
           status: '2 November 2024',
           tech: 'Teknologi Layanan Jaringan',
           github: 'null',
@@ -105,7 +102,6 @@ export default {
         {
           id: 6,
           name: 'Pending',
-          imageUrl: 'https://example.com/images/scratch6.png',
           status: '?',
           tech: 'Teknologi Layanan Jaringan',
           github: 'null',
