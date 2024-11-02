@@ -95,28 +95,28 @@ export default {
         },
         {
           id: 4,
-          name: 'Bumdesma',
+          name: 'TLJ Ulangan Akhir Bab 1',
           imageUrl: 'https://example.com/images/scratch4.png',
-          status: 'A web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
-          tech: 'Scratch',
+          status: '2 November 2024',
+          tech: 'Teknologi Layanan Jaringan',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1065531890/'
+          demo: 'https://telegra.ph/TLJ-ULANGAN-AKHIR-BAB-1-11-02'
         },
         {
           id: 5,
-          name: 'SP2SE',
+          name: 'TLJ Ulangan Akhir Bab 2',
           imageUrl: 'https://example.com/images/scratch5.png',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Scratch',
+          status: '2 November 2024',
+          tech: 'Teknologi Layanan Jaringan',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1063580305/'
+          demo: 'https://telegra.ph/TLJ-ULANGAN-AKHIR-BAB-2-11-02'
         },
         {
           id: 6,
           name: 'SP2SE',
           imageUrl: 'https://example.com/images/scratch6.png',
           status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Scratch',
+          tech: 'Teknologi Layanan Jaringan',
           github: 'null',
           demo: 'https://scratch.mit.edu/projects/1066029646/'
         }
