@@ -113,12 +113,12 @@ export default {
         },
         {
           id: 6,
-          name: 'SP2SE',
+          name: 'Pending',
           imageUrl: 'https://example.com/images/scratch6.png',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
+          status: '?',
           tech: 'Teknologi Layanan Jaringan',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1066029646/'
+          demo: 'https://error'
         }
       ]
     };
