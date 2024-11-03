@@ -202,7 +202,7 @@ market changes, ensuring that my approach remains user-friendly yet impactful.
                   <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
                   </div>
                   <div
-                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-[#00ffff] transition-all duration-300 md:text-xs lg:text-sm">
+                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-[#ffffff] transition-all duration-300 md:text-xs lg:text-sm">
                     {{ item.status }}</div>
                 </div>
               </div>
