@@ -11,7 +11,7 @@ export default {
           status: 'My first game! Challenge your reflexes by catching falling balls. The more balls you pick up, the higher your score! Ready to have fun and test your speed?',
           tech: 'Scratch',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1062169432/'
+          demo: 'https://scratch.mit.edu/projects/1062169432'
         },
         {
           id: 2,
@@ -20,7 +20,7 @@ export default {
           status: 'My second game! Test your dexterity by catching falling fruit. Every fruit you pick up adds to your score, but watch out for the obstacles! Ready for a fresh and exciting challenge?',
           tech: 'Scratch',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1063011261/'
+          demo: 'https://scratch.mit.edu/projects/1063011261'
         },
         {
           id: 3,
@@ -29,7 +29,7 @@ export default {
           status: 'My third game! Get ready for exciting action as you shoot targets and test your accuracy. Improve your shooting skills through various challenging levels. Ready to become a shooting expert?',
           tech: 'Scratch',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1063495202/'
+          demo: 'https://scratch.mit.edu/projects/1065531890'
         },
         {
           id: 4,
@@ -38,7 +38,7 @@ export default {
           status: 'My fourth game! Test your knowledge of unit conversions by answering various questions. From length to weight, challenge yourself and improve your conversion skills in a fun way!',
           tech: 'Scratch',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1065531890/'
+          demo: 'https://scratch.mit.edu/projects/1063580305'
         },
         {
           id: 5,
@@ -47,16 +47,16 @@ export default {
           status: 'My fifth game! Challenge your friends in exciting 2 player races! Choose your favorite car, enjoy challenging tracks, and see who is the fastest. Ready for a thrilling speed race?',
           tech: 'Scratch',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1063580305/'
+          demo: 'https://scratch.mit.edu/projects/1066029646'
         },
         {
           id: 6,
-          name: 'PPT Presentation',
+          name: 'Pending',
           imageUrl: 'scratch.6',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Scratch',
+          status: 'Look forward to my next project.',
+          tech: '?',
           github: 'null',
-          demo: 'https://scratch.mit.edu/projects/1066029646/'
+          demo: 'null'
         }
       ]
     };
