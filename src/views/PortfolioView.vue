@@ -52,7 +52,7 @@ export default {
         {
           id: 6,
           name: 'Pending',
-          imageUrl: 'scratch.6',
+          imageUrl: 'scratch',
           status: 'Look forward to my next project.',
           tech: '?',
           github: 'null',
